@@ -1,6 +1,0 @@
-Options -Indexes
-RewriteEngine On
-RewriteBase /my-new-project-film/
-
-RewriteCond %{REQUEST_URI} !^/my-new-project-film/public/
-RewriteRule ^(.*)$ public/$1 [L,QSA]
